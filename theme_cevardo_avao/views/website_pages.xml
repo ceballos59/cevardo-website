@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_avao" model="website.page">
+        <field name="name">AVAO</field>
+        <field name="url">/avao</field>
+        <field name="is_published">True</field>
+        <field name="website_indexed">True</field>
+        <field name="website_meta_title">AVAO — Acción, Valor, Acritud y Oportunidad</field>
+        <field name="website_meta_description">Conoce el marco AVAO: una forma práctica de orientarte, desarrollar capacidades y construir oportunidades.</field>
+        <field name="website_meta_keywords">AVAO, acción, valor, acritud crítica, oportunidad</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_cevardo_avao.page_avao</field>
+        <field name="arch" type="xml">
+            <t name="AVAO" t-name="theme_cevardo_avao.page_avao">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure o_avao_inner_page">
+                        <main class="avao-inner-page">
+                            <section class="avao-inner-hero"><div class="container"><p class="avao-kicker">El marco AVAO</p><h1>Una dirección se construye<br/><em>haciendo.</em></h1><p class="avao-lead">Cuatro principios para orientarte cuando todavía no tienes todas las respuestas.</p></div></section>
+                            <section class="avao-inner-content"><div class="container"><div class="avao-principles avao-principles--light"><article><span>A</span><h2>Acción</h2><p>La claridad no siempre llega antes de empezar. Practica, prueba y aprende hasta convertir una posibilidad en capacidad.</p></article><article><span>V</span><h2>Valor</h2><p>Busca una necesidad real. El sentido crece cuando lo que aprendes sirve para mejorar la vida de alguien.</p></article><article><span>A</span><h2>Acritud crítica</h2><p>Mira lo que no funciona sin resignarte. Cuestionar con honestidad es el comienzo de una respuesta mejor.</p></article><article><span>O</span><h2>Oportunidad</h2><p>No es algo que se espera quieto. Aparece cuando una capacidad útil encuentra un problema real.</p></article></div></div></section>
+                            <section class="avao-inner-quote"><div class="container"><blockquote>No necesitas certeza para comenzar. Necesitas una primera acción que puedas repetir.</blockquote></div></section>
+                        </main>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_filosofia" model="website.page">
+        <field name="name">Filosofía</field>
+        <field name="url">/filosofia</field>
+        <field name="is_published">True</field>
+        <field name="website_indexed">True</field>
+        <field name="website_meta_title">Filosofía práctica de vida | AVAO</field>
+        <field name="website_meta_description">Una filosofía práctica para vivir con más dirección, responsabilidad, aprendizaje y contribución.</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_cevardo_avao.page_filosofia</field>
+        <field name="arch" type="xml">
+            <t name="Filosofía" t-name="theme_cevardo_avao.page_filosofia">
+                <t t-call="website.layout"><div id="wrap" class="oe_structure o_avao_inner_page"><main class="avao-inner-page"><section class="avao-inner-hero"><div class="container"><p class="avao-kicker">Una filosofía para la vida cotidiana</p><h1>No se trata de encontrarte.<br/><em>Se trata de construirte.</em></h1></div></section><section class="avao-inner-content"><div class="container avao-narrow"><p class="avao-copy avao-copy--large">Avaopolis parte de una idea sencilla: las personas pueden cambiar, pero el cambio no ocurre por esperar la respuesta perfecta. Ocurre cuando una persona aprende, trabaja, falla, corrige y empieza a ser útil.</p><p class="avao-copy">Tus circunstancias importan. Tu historia importa. Pero también importa qué decides construir a partir de donde estás. El sentido no es una etiqueta que alguien te entrega; crece a través de la relación entre capacidad, responsabilidad y contribución.</p><div class="avao-note"><p class="avao-label">Una orientación, no una receta</p><p>No queremos decirte quién debes ser. Queremos ayudarte a mirar con más claridad, elegir una dirección y dar el siguiente paso posible.</p></div></div></section></main></div></t>
+            </t>
+        </field>
+    </record>
+
+    <record id="page_proyecto" model="website.page">
+        <field name="name">Proyecto</field>
+        <field name="url">/proyecto</field>
+        <field name="is_published">True</field>
+        <field name="website_indexed">True</field>
+        <field name="website_meta_title">El proyecto Avaopolis | Cevardo</field>
+        <field name="website_meta_description">Avaopolis es un proyecto digital en construcción para aprender, colaborar y crear oportunidades junto a otras personas.</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_cevardo_avao.page_proyecto</field>
+        <field name="arch" type="xml">
+            <t name="Proyecto" t-name="theme_cevardo_avao.page_proyecto">
+                <t t-call="website.layout"><div id="wrap" class="oe_structure o_avao_inner_page"><main class="avao-inner-page"><section class="avao-inner-hero"><div class="container"><p class="avao-kicker">El proyecto</p><h1>La primera piedra es digital.</h1><h2><em>El destino, todavía abierto.</em></h2></div></section><section class="avao-inner-content"><div class="container"><div class="row g-5"><div class="col-lg-7"><p class="avao-copy avao-copy--large">Avaopolis nace como un espacio para orientar, aprender y hacer. Primero será una sede digital; con el tiempo, podrá convertirse también en un lugar físico donde personas normales aprendan habilidades, colaboren y contribuyan a regenerar un entorno rural.</p></div><div class="col-lg-5"><div class="avao-note"><p class="avao-label">Ahora</p><p>Estamos construyendo la base: una identidad, un CMS, contenidos y una comunidad que crece sobre la marcha.</p></div><div class="avao-note"><p class="avao-label">Después</p><p>Más aprendizaje práctico, talleres, colaboración y oportunidades creadas desde problemas reales.</p></div></div></div></div></section><section class="avao-inner-quote"><div class="container"><blockquote>Una comunidad no aparece terminada. Se construye entre quienes deciden participar.</blockquote></div></section></main></div></t>
+            </t>
+        </field>
+    </record>
+
+    <record id="menu_avao" model="website.menu"><field name="name">AVAO</field><field name="url">/avao</field><field name="page_id" ref="page_avao"/><field name="parent_id" ref="website.main_menu"/><field name="sequence" type="int">20</field></record>
+    <record id="menu_filosofia" model="website.menu"><field name="name">Filosofía</field><field name="url">/filosofia</field><field name="page_id" ref="page_filosofia"/><field name="parent_id" ref="website.main_menu"/><field name="sequence" type="int">30</field></record>
+    <record id="menu_proyecto" model="website.menu"><field name="name">Proyecto</field><field name="url">/proyecto</field><field name="page_id" ref="page_proyecto"/><field name="parent_id" ref="website.main_menu"/><field name="sequence" type="int">40</field></record>
+</odoo>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="avao_homepage" inherit_id="website.homepage" name="AVAO prototype homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure o_avao_homepage">
+                <main class="avao-shell">
+                    <section class="avao-hero">
+                        <div class="container">
+                            <div class="avao-hero__topline">
+                                <span>CEVARDO / AVAO</span>
+                            </div>
+                            <div class="row align-items-end g-5">
+                                <div class="col-lg-8">
+                                    <p class="avao-kicker">Una filosofía práctica de vida</p>
+                                    <h1>Oriéntate.<br/><em>Construye tu lugar.</em></h1>
+                                    <p class="avao-lead">
+                                        Una brújula para quienes se sienten perdidos, están buscando dirección
+                                        o simplemente han decidido empezar a construir algo útil.
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-3 mt-4">
+                                        <a href="#avao-framework" class="btn avao-button avao-button--dark">Descubrir AVAO <span>↗</span></a>
+                                        <a href="#avao-project" class="avao-text-link">Conocer el proyecto <span>→</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="avao-orbit" aria-hidden="true">
+                                        <div class="avao-orbit__ring avao-orbit__ring--outer"/>
+                                        <div class="avao-orbit__ring avao-orbit__ring--inner"/>
+                                        <div class="avao-orbit__cross avao-orbit__cross--one"/>
+                                        <div class="avao-orbit__cross avao-orbit__cross--two"/>
+                                        <strong>AVAO</strong>
+                                        <small>un sextante vital</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="avao-intro">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-lg-4"><p class="avao-label">01 / Punto de partida</p></div>
+                                <div class="col-lg-8">
+                                    <h2>No necesitas tenerlo todo claro para empezar.</h2>
+                                    <p class="avao-copy">
+                                        El sentido no siempre aparece antes de la acción. A menudo se construye
+                                        mientras aprendemos, resolvemos problemas reales y aportamos algo a los demás.
+                                    </p>
+                                    <p class="avao-copy avao-copy--muted">
+                                        AVAO es una invitación a recuperar la iniciativa: mirar con honestidad,
+                                        desarrollar capacidades y crear oportunidades donde antes solo había bloqueo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="avao-framework" class="avao-framework">
+                        <div class="container">
+                            <div class="row align-items-end g-4 mb-5">
+                                <div class="col-lg-7"><p class="avao-label">02 / El marco AVAO</p><h2>Una dirección se construye paso a paso.</h2></div>
+                                <div class="col-lg-5"><p class="avao-copy avao-copy--light">Cuatro principios para pasar de la reflexión inmóvil a una vida con más capacidad, criterio y contribución.</p></div>
+                            </div>
+                            <div class="avao-principles">
+                                <article><span>A</span><h3>Acción</h3><p>Empieza practicando. La claridad llega después de dar los primeros pasos.</p><small>¿Qué habilidad útil puedes desarrollar?</small></article>
+                                <article><span>V</span><h3>Valor</h3><p>Busca una necesidad real y aprende a resolverla para alguien.</p><small>¿Qué puedes aportar?</small></article>
+                                <article><span>A</span><h3>Acritud crítica</h3><p>Cuestiona lo que no funciona. La insatisfacción también puede construir.</p><small>¿Qué problema merece una respuesta mejor?</small></article>
+                                <article><span>O</span><h3>Oportunidad</h3><p>No esperes a que aparezca. Crea las condiciones para encontrarla.</p><small>¿Qué puedes poner en marcha hoy?</small></article>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="avao-project" class="avao-project">
+                        <div class="container">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-7"><p class="avao-label">03 / Un proyecto vivo</p><h2>La primera piedra es digital.<br/><em>El destino, todavía abierto.</em></h2></div>
+                                <div class="col-lg-5"><p class="avao-copy">Cevardo está construyendo la base de un CMS y una comunidad para AVAO: un lugar para aprender, colaborar y contribuir a la regeneración de nuestros entornos.</p><a href="/contactus" class="avao-text-link">Conocer el proyecto <span>→</span></a></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="avao-closing"><div class="container"><p class="avao-kicker">El siguiente paso es pequeño</p><h2>Haz algo útil.<br/><em>Y vuelve mañana.</em></h2><a href="#wrap" class="btn avao-button avao-button--light">Empezar desde aquí <span>↗</span></a></div></section>
+                </main>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="avao_header_cleanup" inherit_id="website.layout" name="AVAO header cleanup">
+        <xpath expr="//header//t[@t-call='website.placeholder_header_search_box']" position="replace"/>
+    </template>
+</odoo>

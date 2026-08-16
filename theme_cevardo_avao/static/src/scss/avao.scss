@@ -1,0 +1,39 @@
+:root {
+    --avao-ink: #182321;
+    --avao-paper: #f3efe7;
+    --avao-clay: #c96e4e;
+    --avao-ochre: #d4a646;
+    --avao-sage: #697d68;
+    --avao-line: rgba(24, 35, 33, .18);
+}
+
+.o_avao_homepage { background: var(--avao-paper); color: var(--avao-ink); font-family: "Helvetica Neue", Arial, sans-serif; }
+.avao-shell { overflow: hidden; }
+.avao-hero { min-height: 92vh; padding: 2rem 0 7rem; display: flex; align-items: center; background: var(--avao-paper); }
+.avao-hero__topline { display: flex; justify-content: space-between; border-bottom: 1px solid var(--avao-line); padding-bottom: 1rem; margin-bottom: 7rem; font: 600 .68rem/1.2 monospace; letter-spacing: .12em; }
+.avao-kicker, .avao-label { color: var(--avao-clay); font: 600 .7rem/1.3 monospace; letter-spacing: .14em; text-transform: uppercase; }
+.avao-hero h1, .avao-intro h2, .avao-framework h2, .avao-project h2, .avao-closing h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.045em; }
+.avao-hero h1 { font-size: clamp(4rem, 9vw, 8.5rem); line-height: .88; margin: 1.4rem 0 2.2rem; }
+.avao-hero h1 em, .avao-project h2 em, .avao-closing h2 em { color: var(--avao-clay); font-style: italic; }
+.avao-lead { max-width: 32rem; font-size: 1.15rem; line-height: 1.55; }
+.avao-button { border-radius: 0; padding: 1rem 1.35rem; font-size: .75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.avao-button span { margin-left: 1.5rem; font-size: 1.15rem; }
+.avao-button--dark { background: var(--avao-ink); color: var(--avao-paper); }
+.avao-button--dark:hover { background: var(--avao-clay); color: white; }
+.avao-button--light { background: var(--avao-paper); color: var(--avao-ink); }
+.avao-text-link { color: inherit; display: inline-flex; gap: 1rem; align-items: center; border-bottom: 1px solid currentColor; padding: .75rem 0; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.avao-text-link:hover { color: var(--avao-clay); }
+.avao-orbit { aspect-ratio: 1; max-width: 24rem; margin: auto; border: 1px solid var(--avao-line); border-radius: 50%; display: grid; place-content: center; text-align: center; position: relative; }
+.avao-orbit__ring { position: absolute; border: 1px solid var(--avao-clay); border-radius: 50%; inset: 13%; transform: rotate(28deg) skew(-12deg); }
+.avao-orbit__ring--inner { inset: 29%; border-color: var(--avao-ink); transform: rotate(-35deg) skew(12deg); }
+.avao-orbit strong { font: 600 3.2rem Georgia, serif; letter-spacing: .15em; margin-left: .15em; }
+.avao-orbit small { font: .65rem monospace; text-transform: uppercase; letter-spacing: .12em; margin-top: .5rem; }
+.avao-orbit__cross { position: absolute; background: var(--avao-ochre); width: 7px; height: 7px; border-radius: 50%; }
+.avao-orbit__cross--one { top: 7%; left: 46%; }.avao-orbit__cross--two { right: 10%; bottom: 25%; background: var(--avao-clay); }
+.avao-intro, .avao-project { padding: 9rem 0; }.avao-intro h2, .avao-project h2 { font-size: clamp(2.6rem, 5vw, 5rem); line-height: .98; max-width: 47rem; margin: 0 0 2.5rem; }
+.avao-copy { font-size: 1.15rem; line-height: 1.6; max-width: 38rem; }.avao-copy--muted { color: #67706a; }.avao-copy--light { color: rgba(243, 239, 231, .72); }
+.avao-framework { padding: 8rem 0; background: var(--avao-ink); color: var(--avao-paper); }.avao-framework h2 { font-size: clamp(2.8rem, 5vw, 5rem); line-height: .95; margin: 1.2rem 0 0; }
+.avao-framework .avao-label { color: var(--avao-ochre); }.avao-principles { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid rgba(243,239,231,.25); }.avao-principles article { min-height: 20rem; padding: 1.5rem 1.25rem 1.5rem 0; margin-right: 1.25rem; border-right: 1px solid rgba(243,239,231,.25); display: flex; flex-direction: column; }.avao-principles article:last-child { border: 0; }.avao-principles span { color: var(--avao-ochre); font: 3rem Georgia, serif; }.avao-principles h3 { font: 1.5rem Georgia, serif; margin: 1.5rem 0 1rem; }.avao-principles p { color: rgba(243,239,231,.72); line-height: 1.5; }.avao-principles small { margin-top: auto; color: var(--avao-clay); font: .72rem monospace; line-height: 1.4; }
+.avao-project { background: #d8d5c8; }.avao-project .avao-label { color: var(--avao-sage); }.avao-closing { padding: 9rem 0; background: var(--avao-clay); color: var(--avao-paper); }.avao-closing h2 { font-size: clamp(4rem, 9vw, 8rem); line-height: .86; margin: 1.5rem 0 3rem; }.avao-closing h2 em { color: var(--avao-ink); }
+.avao-inner-hero { padding: 9rem 0 7rem; background: var(--avao-paper); }.avao-inner-hero h1 { font: 400 clamp(3.5rem, 8vw, 7.5rem)/.9 Georgia, "Times New Roman", serif; letter-spacing: -.05em; margin: 1.5rem 0 .4rem; }.avao-inner-hero h2 { font: 400 clamp(2.5rem, 6vw, 5.5rem)/1 Georgia, "Times New Roman", serif; letter-spacing: -.045em; margin: 1.4rem 0 0; }.avao-inner-hero h1 em, .avao-inner-hero h2 em { color: var(--avao-clay); font-style: italic; }.avao-inner-content { padding: 7rem 0; background: var(--avao-paper); }.avao-inner-content .avao-principles { border-top: 1px solid var(--avao-line); }.avao-principles--light article { color: var(--avao-ink); border-color: var(--avao-line); }.avao-principles--light article p { color: #67706a; }.avao-principles--light article h2 { font: 1.6rem Georgia, serif; margin: 1.5rem 0 1rem; }.avao-copy--large { font: 400 clamp(1.8rem, 3.4vw, 3rem)/1.2 Georgia, serif; letter-spacing: -.02em; max-width: 48rem; }.avao-narrow { max-width: 62rem; }.avao-note { border-top: 1px solid var(--avao-line); padding: 1.5rem 0; margin-top: 2.5rem; max-width: 32rem; }.avao-note p:last-child { font-size: 1.1rem; line-height: 1.55; }.avao-inner-quote { padding: 7rem 0; background: var(--avao-clay); color: var(--avao-paper); }.avao-inner-quote blockquote { max-width: 55rem; margin: 0; font: 400 clamp(2.5rem, 5vw, 5rem)/.95 Georgia, serif; letter-spacing: -.04em; }.avao-inner-quote blockquote::before { content: "“"; color: var(--avao-ink); }
+@media (max-width: 767px) { .avao-hero { min-height: auto; padding-bottom: 4rem; }.avao-hero__topline { margin-bottom: 4rem; }.avao-hero h1 { font-size: 4rem; }.avao-orbit { max-width: 18rem; margin-top: 3rem; }.avao-intro, .avao-project, .avao-framework, .avao-closing { padding: 5rem 0; }.avao-principles { grid-template-columns: repeat(2, 1fr); }.avao-principles article:nth-child(2) { border-right: 0; }.avao-principles article { min-height: 17rem; }.avao-closing h2 { font-size: 4.5rem; } }
