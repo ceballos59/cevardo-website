@@ -7,7 +7,7 @@
         value, critical thinking and opportunity.
     """,
     "version": "18.0.1.0.1",
-    "category": "Website/Theme",
+    "category": "Theme",
     "author": "Cevardo Creative",
     "website": "https://avaopolis.es",
     "license": "LGPL-3",
